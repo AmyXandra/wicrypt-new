@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="896" viewBox="0 0 414 896">
+  <defs>
+    <filter id="Rectangle_10" x="-24" y="-15" width="462" height="217" filterUnits="userSpaceOnUse">
+      <feOffset dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#6b6b6b" flood-opacity="0.42"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_11" x="6" y="178" width="402" height="262.333" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1192" x="8" y="513" width="398" height="151.333" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-3"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1182" x="8" y="427" width="398" height="99.333" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-4"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Home">
+      <rect width="414" height="896"/>
+    </clipPath>
+  </defs>
+  <g id="Home" clip-path="url(#clip-Home)">
+    <rect width="414" height="896" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_10)">
+      <rect id="Rectangle_10-2" data-name="Rectangle 10" width="414" height="169" fill="#384b8a"/>
+    </g>
+    <g id="Group_27" data-name="Group 27" transform="translate(-7.063)">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="25.077" height="3.621" rx="1.81" transform="translate(38 77.146)" fill="#fff"/>
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="20.823" height="3.621" rx="1.81" transform="translate(38 69)" fill="#fff"/>
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="14.777" height="3.621" rx="1.81" transform="translate(38 85.292)" fill="#fff"/>
+    </g>
+    <text id="_WALLET_AVAILABLE_WIFI_CONNECTED_DEVICES" data-name="          WALLET             AVAILABLE  WIFI             CONNECTED DEVICES" transform="translate(197 153)" fill="#a9baf3" font-size="12" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-187.471" y="0" xml:space="preserve">          </tspan><tspan y="0" fill="#fff">WALLET</tspan><tspan y="0" xml:space="preserve">             AVAILABLE  WIFI             CONNECTED DEVICES</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_11)">
+      <rect id="Rectangle_11-2" data-name="Rectangle 11" width="378" height="238.333" rx="3" transform="translate(18 189)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1192)">
+      <rect id="Rectangle_1192-2" data-name="Rectangle 1192" width="374" height="127.333" rx="3" transform="translate(20 524)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1182)">
+      <rect id="Rectangle_1182-2" data-name="Rectangle 1182" width="374" height="75.333" rx="3" transform="translate(20 438)" fill="#fff"/>
+    </g>
+    <line id="Line_6" data-name="Line 6" x2="287" transform="translate(63.5 378.5)" fill="none" stroke="#bcbcbc" stroke-width="1" opacity="0.34"/>
+    <text id="Total_Used:" data-name="Total Used:" transform="translate(81 405.591)" fill="#25356a" font-size="15" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-40.437" y="0">Total Used:</tspan></text>
+    <text id="Total_Sold:" data-name="Total Sold:" transform="translate(272 405.578)" fill="#25356a" font-size="15" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-37.694" y="0">Total Sold:</tspan></text>
+    <text id="_70.00_B" data-name="70.00 B" transform="translate(152 405.333)" fill="#cfa809" font-size="15" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-26.085" y="0">70.00 B</tspan></text>
+    <text id="_6.04_B" data-name="6.04 B" transform="translate(346 405.333)" fill="#cfa809" font-size="15" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-21.804" y="0">6.04 B</tspan></text>
+    <text id="_100.0" data-name="100.0" transform="translate(203.465 289.657)" fill="#384b8a" font-size="47" font-family="OpenSans-Light, Open Sans" font-weight="300"><tspan x="-59.243" y="0">100.0</tspan></text>
+    <text id="_100.0-2" data-name="$100.0" transform="translate(201.283 345.093)" fill="#384b8a" font-size="23" font-family="OpenSans-Regular, Open Sans"><tspan x="-35.938" y="0">$100.0</tspan></text>
+    <text id="Wallet_balance" data-name="Wallet balance" transform="translate(197 223)" fill="#344684" font-size="20" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-70.806" y="0">Wallet balance</tspan></text>
+    <text id="_Approximately_" data-name="(Approximately)  " transform="translate(206.605 315.113)" fill="#6b6b6b" font-size="12" font-family="OpenSans-Regular, Open Sans"><tspan x="-47.496" y="0" xml:space="preserve">(Approximately)  </tspan></text>
+    <g id="Wicrypt_Coin_ICON" data-name="Wicrypt Coin ICON" transform="translate(116 263.315)">
+      <path id="Path_306" data-name="Path 306" d="M6.625,4.869,4.262-3.9,1.869,4.869q-.279,1-.444,1.431a1.9,1.9,0,0,1-.573.778,1.632,1.632,0,0,1-1.087.344,1.786,1.786,0,0,1-.9-.2,1.569,1.569,0,0,1-.573-.578,3.634,3.634,0,0,1-.359-.887q-.14-.514-.249-.952L-4.752-5.042a5.759,5.759,0,0,1-.219-1.306,1.284,1.284,0,0,1,.4-.957,1.359,1.359,0,0,1,.987-.389A1.12,1.12,0,0,1-2.5-7.176,5.857,5.857,0,0,1-2.01-5.67L-.1,2.865,2.049-5.122a12.859,12.859,0,0,1,.429-1.4A2.014,2.014,0,0,1,3.1-7.345a1.8,1.8,0,0,1,1.167-.349,1.7,1.7,0,0,1,1.162.364A1.987,1.987,0,0,1,6-6.538q.16.429.429,1.416L8.59,2.865,10.5-5.67a10.19,10.19,0,0,1,.264-1.047A1.68,1.68,0,0,1,11.2-7.4a55.5,55.5,0,0,1,6.055-.98c.386,0-.849.263-.58.518s-3.207,1.123-3.207,1.508a6.248,6.248,0,0,1-.219,1.306L10.813,4.8q-.249,1-.414,1.461a1.945,1.945,0,0,1-.558.813,1.621,1.621,0,0,1-1.112.349,1.648,1.648,0,0,1-1.087-.339,1.834,1.834,0,0,1-.568-.763Q6.914,5.9,6.625,4.869Z" transform="translate(4.971 14.194)" fill="#344684"/>
+      <text id="C" transform="translate(21.888 21)" fill="#344684" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-6.864" y="0">C</tspan></text>
+    </g>
+    <text id="Billing_Rate" data-name="Billing Rate" transform="translate(79 473)" fill="#cfa809" font-size="15" font-family="OpenSans-Regular, Open Sans"><tspan x="-38.771" y="0">Billing Rate</tspan></text>
+    <text id="_0.5_wc_kb" data-name="0.5 wc/kb" transform="translate(74 495)" fill="#25356a" font-size="15" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-33.263" y="0">0.5</tspan><tspan y="0" xml:space="preserve" font-family="OpenSans-Regular, Open Sans" font-weight="400"> wc/kb</tspan></text>
+    <text id="Set_Rate" data-name="Set Rate" transform="translate(344 482)" fill="#cfa809" font-size="11" font-family="OpenSans-Regular, Open Sans"><tspan x="-20.961" y="0">Set Rate</tspan></text>
+    <path id="Rectangle_1191" data-name="Rectangle 1191" d="M3,0H103a3,3,0,0,1,3,3V3a0,0,0,0,1,0,0H0A0,0,0,0,1,0,3V3A3,3,0,0,1,3,0Z" transform="translate(7 166)" fill="#fff"/>
+    <g id="Rectangle_1193" data-name="Rectangle 1193" transform="translate(310 467)" fill="none" stroke="#cfa809" stroke-width="1">
+      <rect width="69" height="22" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="68" height="21" rx="2.5" fill="none"/>
+    </g>
+    <text id="Fund_wallet" data-name="Fund wallet" transform="translate(83 622)" fill="#344684" font-size="11" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-30.846" y="0">Fund wallet</tspan></text>
+    <text id="Share_WC" data-name="Share WC" transform="translate(206 622)" fill="#344684" font-size="11" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-25.362" y="0">Share WC</tspan></text>
+    <text id="Withdraw" transform="translate(330 622)" fill="#344684" font-size="11" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-25.87" y="0">Withdraw</tspan></text>
+    <text id="Wicrypt" transform="translate(207 87)" fill="#fff" font-size="20" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="-37.031" y="0">Wicrypt</tspan></text>
+    <g id="Group_1799" data-name="Group 1799">
+      <g id="Icon_Shape" data-name="Icon Shape" transform="translate(57 551)">
+        <g id="Ellipse_49" data-name="Ellipse 49" fill="rgba(207,168,9,0.07)" stroke="rgba(207,168,9,0.35)" stroke-width="1">
+          <circle cx="26.5" cy="26.5" r="26.5" stroke="none"/>
+          <circle cx="26.5" cy="26.5" r="26" fill="none"/>
+        </g>
+      </g>
+      <g id="wallet" transform="translate(72.001 563)">
+        <path id="Path_309" data-name="Path 309" d="M198.884,429.426a.529.529,0,1,0,.385.721A.528.528,0,0,0,198.884,429.426Zm0,0" transform="translate(-187.771 -406.715)" fill="#cfa809"/>
+        <path id="Path_310" data-name="Path 310" d="M26.209,15.077a2.346,2.346,0,0,0-2.318-2.011H23.7V9.771A1.874,1.874,0,0,0,21.831,7.9h-.353l.97-1.39a1.876,1.876,0,0,0-.51-2.644C16.015-.015,16.42.231,16.171.132a1.888,1.888,0,0,0-2.249.687L12.441,3,10.578,1.775a1.642,1.642,0,0,0-2.247.448L4.472,7.9H2.23A2.233,2.233,0,0,0,0,10.13c0,.016,0,.032,0,.048s0,.016,0,.024V24.791a2.278,2.278,0,0,0,2.276,2.276H21.427A2.278,2.278,0,0,0,23.7,24.791V23.525h.107A2.426,2.426,0,0,0,26.232,21.1c0-6.41.012-5.911-.024-6.025Zm-2.318-.953a1.286,1.286,0,0,1,1.285,1.285,1.441,1.441,0,0,1-.189.773,1.387,1.387,0,0,1-1.283.629V14.123ZM13.328,3.572A3.648,3.648,0,0,0,18.1,2.616l1.149.753A3.473,3.473,0,0,0,20.185,7.9L19.3,9.167H9.524l3.8-5.6ZM14.8,1.413a.823.823,0,0,1,1.127-.225l1.291.846a2.594,2.594,0,0,1-3.289.661ZM21.357,4.75A.819.819,0,0,1,21.58,5.9l-.789,1.131a2.417,2.417,0,0,1-.656-3.087ZM9.206,2.818A.579.579,0,0,1,10,2.66l1.848,1.211-3.6,5.3H4.889ZM2.23,8.957H3.753c-.24.382-.378.476-.391.71a.529.529,0,0,0,.528.558H19.579A.528.528,0,0,0,20.013,10l.727-1.042h1.091a.816.816,0,0,1,.815.815V11.3H2.23a1.173,1.173,0,0,1,0-2.346ZM22.645,24.791a1.22,1.22,0,0,1-1.218,1.218H2.275a1.219,1.219,0,0,1-1.218-1.218V23.758H8.894a.529.529,0,0,0,0-1.057H1.057V12.029a2.24,2.24,0,0,0,.722.285c.55.113.3.009,20.866.046v4.45H20.71a3.358,3.358,0,0,0,0,6.715h1.935Zm2.53-3.689a1.367,1.367,0,0,1-1.366,1.366h-3.1a2.3,2.3,0,0,1,0-4.6h3.16a2.359,2.359,0,0,0,1.3-.394Zm0,0" transform="translate(0 0)" fill="#cfa809"/>
+        <path id="Path_311" data-name="Path 311" d="M361.913,346.316a1.863,1.863,0,1,0,1.863,1.863A1.865,1.865,0,0,0,361.913,346.316Zm0,2.668a.805.805,0,1,1,.805-.805A.806.806,0,0,1,361.913,348.984Zm0,0" transform="translate(-341.017 -328.008)" fill="#cfa809"/>
+      </g>
+    </g>
+    <g id="Group_1800" data-name="Group 1800">
+      <g id="Icon_Shape-2" data-name="Icon Shape" transform="translate(180 551)">
+        <g id="Ellipse_49-2" data-name="Ellipse 49" fill="rgba(207,168,9,0.07)" stroke="rgba(207,168,9,0.35)" stroke-width="1">
+          <circle cx="26.5" cy="26.5" r="26.5" stroke="none"/>
+          <circle cx="26.5" cy="26.5" r="26" fill="none"/>
+        </g>
+      </g>
+      <g id="money" transform="translate(193.451 563.875)">
+        <path id="Path_312" data-name="Path 312" d="M450.25,100.125h.9v.9h-.9Zm0,0" transform="translate(-429.989 -95.5)" fill="#cfa809"/>
+        <path id="Path_313" data-name="Path 313" d="M410.25,100.125h.9v.9h-.9Zm0,0" transform="translate(-391.789 -95.5)" fill="#cfa809"/>
+        <path id="Path_314" data-name="Path 314" d="M370.25,100.125h.9v.9h-.9Zm0,0" transform="translate(-353.589 -95.5)" fill="#cfa809"/>
+        <path id="Path_315" data-name="Path 315" d="M130.25,100.125h.9v.9h-.9Zm0,0" transform="translate(-124.389 -95.5)" fill="#cfa809"/>
+        <path id="Path_316" data-name="Path 316" d="M272.5,550.125h-1.8a.45.45,0,1,0,0,.9h1.8a.45.45,0,1,0,0-.9Zm0,0" transform="translate(-258.089 -525.25)" fill="#cfa809"/>
+        <path id="Path_317" data-name="Path 317" d="M27.011,14.525a7.587,7.587,0,0,0-4.05-6.747v-5.4a2.253,2.253,0,0,0-2.25-2.25H6.311a2.253,2.253,0,0,0-2.25,2.25V5.44A2.7,2.7,0,1,0,5.072,9.082l7.216,2.534a7.6,7.6,0,0,0-.45,1.558H5.371a2.7,2.7,0,1,0,0,.9h6.355c-.009.147-.015.3-.015.45a7.709,7.709,0,0,0,.116,1.271L5.072,18.17a2.7,2.7,0,1,0-1.011,3.64v3.065a2.253,2.253,0,0,0,2.25,2.25h14.4a2.252,2.252,0,0,0,2.25-2.25v-3.6a7.588,7.588,0,0,0,4.05-6.747Zm-20.7-13.5h14.4a1.35,1.35,0,0,1,1.35,1.35v.45H4.961v-.45A1.35,1.35,0,0,1,6.311,1.025Zm-3.6,8.55a1.8,1.8,0,1,1,1.8-1.8A1.8,1.8,0,0,1,2.711,9.575Zm2.25-3.289V3.725h17.1V7.373A7.629,7.629,0,0,0,12.68,10.8L5.369,8.235a2.652,2.652,0,0,0-.408-1.95Zm-2.25,9.139a1.8,1.8,0,1,1,1.8-1.8A1.8,1.8,0,0,1,2.711,15.425Zm9.315,1.256a7.7,7.7,0,0,0,7.335,5.494,7.576,7.576,0,0,0,2.7-.5v1.848H4.961v-2.56a2.652,2.652,0,0,0,.408-1.947ZM2.711,21.275a1.8,1.8,0,1,1,1.8-1.8A1.8,1.8,0,0,1,2.711,21.275Zm18,4.95H6.311a1.35,1.35,0,0,1-1.35-1.35v-.45h17.1v.45A1.35,1.35,0,0,1,20.711,26.225Zm1.6-5.629a6.744,6.744,0,0,1-9.7-6.071,6.177,6.177,0,0,1,.055-.845A6.75,6.75,0,1,1,22.314,20.6Zm0,0" fill="#cfa809"/>
+        <path id="Path_318" data-name="Path 318" d="M299.943,181.1a6.3,6.3,0,0,0-9.622,4.334v0a6.354,6.354,0,0,0-.072.968,6.129,6.129,0,0,0,.117,1.2,6.3,6.3,0,1,0,9.578-6.507Zm-.487,9.855a5.4,5.4,0,0,1-8.207-3.52,5.2,5.2,0,0,1-.1-1.029,5.56,5.56,0,0,1,.062-.831.284.284,0,0,1,.005-.032l0-.021a5.463,5.463,0,0,1,.548-1.625,5.406,5.406,0,0,1,2.543-2.4c.03-.014.06-.029.09-.042.05-.021.1-.04.151-.06s.123-.051.186-.073c.042-.015.086-.027.128-.041a5.4,5.4,0,0,1,1.681-.271q.195,0,.387.014a5.4,5.4,0,0,1,2.52,9.935Zm0,0" transform="translate(-277.188 -171.881)" fill="#cfa809"/>
+      </g>
+      <g id="Wicrypt_Coin_ICON-2" data-name="Wicrypt Coin ICON" transform="translate(208.932 574.315)">
+        <path id="Path_306-2" data-name="Path 306" d="M-1.5-4.406-2.2-7.033l-.717,2.626q-.084.3-.133.429a.568.568,0,0,1-.172.233.489.489,0,0,1-.326.1.535.535,0,0,1-.27-.061.47.47,0,0,1-.172-.173A1.089,1.089,0,0,1-4.1-4.142q-.042-.154-.075-.285l-.729-2.949a1.726,1.726,0,0,1-.066-.391.385.385,0,0,1,.12-.287.407.407,0,0,1,.3-.117.335.335,0,0,1,.326.155,1.755,1.755,0,0,1,.146.451l.574,2.557L-2.868-7.4a3.853,3.853,0,0,1,.128-.418.6.6,0,0,1,.185-.248.538.538,0,0,1,.35-.1.51.51,0,0,1,.348.109.6.6,0,0,1,.172.238q.048.128.128.424l.648,2.393.574-2.557a3.053,3.053,0,0,1,.079-.314.5.5,0,0,1,.128-.2,16.631,16.631,0,0,1,1.814-.294c.116,0-.255.079-.174.155s-.961.336-.961.452a1.872,1.872,0,0,1-.066.391L-.241-4.427q-.075.3-.124.438a.583.583,0,0,1-.167.243.486.486,0,0,1-.333.1.494.494,0,0,1-.326-.1.55.55,0,0,1-.17-.229Q-1.41-4.1-1.5-4.406Z" transform="translate(4.971 10.119)" fill="#cfa809"/>
+        <text id="C-2" data-name="C" transform="translate(6.161 6)" fill="#cfa809" font-size="6" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-1.872" y="0">C</tspan></text>
+      </g>
+    </g>
+    <g id="Group_1802" data-name="Group 1802">
+      <g id="Group_1801" data-name="Group 1801">
+        <g id="Icon_Shape-3" data-name="Icon Shape" transform="translate(302 554)">
+          <g id="Ellipse_49-3" data-name="Ellipse 49" fill="rgba(207,168,9,0.07)" stroke="rgba(207,168,9,0.35)" stroke-width="1">
+            <circle cx="26.5" cy="26.5" r="26.5" stroke="none"/>
+            <circle cx="26.5" cy="26.5" r="26" fill="none"/>
+          </g>
+        </g>
+        <g id="Bank" transform="translate(312.542 564.542)">
+          <path id="Path_319" data-name="Path 319" d="M29,26.712h-.458V25.339a.458.458,0,0,0-.458-.458H27.17V23.509a.458.458,0,0,0-.458-.458V13.9a.458.458,0,0,0,.458-.458V12.068h.915a.458.458,0,0,0,.458-.458V10.237H29a.458.458,0,0,0,.221-.858L15.95,2.057a.455.455,0,0,0-.442,0L2.237,9.379a.458.458,0,0,0,.221.858h.458V11.61a.458.458,0,0,0,.458.458h.915v1.373a.458.458,0,0,0,.458.458v9.153a.458.458,0,0,0-.458.458v1.373H3.373a.458.458,0,0,0-.458.458v1.373H2.458A.458.458,0,0,0,2,27.17V29a.458.458,0,0,0,.458.458H29A.458.458,0,0,0,29.458,29V27.17A.458.458,0,0,0,29,26.712Zm-1.373,0H20.763V25.8h6.865Zm-12.356.915v.915H7.034v-.915ZM8.407,23.051V13.9a.458.458,0,0,0,.458-.458V12.068h4.576v1.373a.458.458,0,0,0,.458.458v9.153a.458.458,0,0,0-.458.458v1.373H8.865V23.509A.458.458,0,0,0,8.407,23.051ZM23.051,13.9v9.153a.458.458,0,0,0-.458.458v1.373H18.017V23.509a.458.458,0,0,0-.458-.458V13.9a.458.458,0,0,0,.458-.458V12.068h4.576v1.373A.458.458,0,0,0,23.051,13.9Zm-6.407,0v9.153H14.814V13.9ZM14.356,23.966H17.1v.915H14.356ZM17.1,12.983H14.356v-.915H17.1ZM19.848,25.8v.915H11.61V25.8Zm-3.661,1.831h8.237v.915H16.187Zm7.322-2.746v-.915h2.746v.915ZM25.8,23.051H23.966V13.9H25.8Zm.458-10.068H23.509v-.915h2.746Zm-10.526-10L27.223,9.322H23.966V8.407h-.915v.915h-.915V8.407h-.915v.915h-.915V8.407H19.39v.915h-.915V8.407H17.56v.915H13.9V8.407h-.915v.915h-.915V8.407h-.915v.915h-.915V8.407H9.322v.915H8.407V8.407H7.492v.915H4.235Zm-11.9,7.257h23.8v.915H3.831Zm4.119,1.831v.915H5.2v-.915ZM5.661,13.9H7.492v9.153H5.661ZM5.2,23.966H7.949v.915H5.2ZM3.831,25.8H10.7v.915H3.831Zm-.915,1.831h3.2v.915h-3.2Zm25.627.915h-3.2v-.915h3.2Z" fill="#cfa809"/>
+          <path id="Path_320" data-name="Path 320" d="M29.831,11.661A1.831,1.831,0,1,0,28,9.831,1.831,1.831,0,0,0,29.831,11.661Zm0-2.746a.915.915,0,1,1-.915.915A.915.915,0,0,1,29.831,8.915Z" transform="translate(-14.102 -3.254)" fill="#cfa809"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_273" data-name="Group 273" transform="translate(1 2)">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M9.109,15.183H0V2.024H2.024V0H7.086V2.024H9.11V15.182h0Zm-8.1-1.012H8.1V3.036H1.012Zm1.012-1.013V4.048H7.086v9.11Z" transform="translate(341.963 10)" fill="#fff"/>
+      <path id="_12:42" data-name="12:42" d="M18.8,11.759a.813.813,0,0,1-.9-.854.919.919,0,0,1,.225-.632.865.865,0,0,1,.676-.253.889.889,0,0,1,.684.253.9.9,0,0,1,.233.632.854.854,0,0,1-.233.609A.9.9,0,0,1,18.8,11.759ZM4.42,11.671H2.95V1.921L0,3.005V1.676L4.191.1H4.42V11.67Zm33.94,0H30.816V10.62L34.8,6.192a9.523,9.523,0,0,0,1.222-1.633,2.737,2.737,0,0,0,.336-1.3,2.074,2.074,0,0,0-.546-1.479A1.916,1.916,0,0,0,34.359,1.2a2.271,2.271,0,0,0-1.7.621,2.38,2.38,0,0,0-.6,1.728H30.6A3.413,3.413,0,0,1,31.619.98,3.817,3.817,0,0,1,34.359,0,3.662,3.662,0,0,1,36.9.842a2.887,2.887,0,0,1,.934,2.242c0,1.128-.729,2.491-2.167,4.049L32.58,10.478h5.78V11.67Zm-10.462,0H26.427V9H21.185V8.137L26.341.159H27.9V7.805h1.6V9H27.9V11.67ZM26.427,2.159l-.174.316-3.408,5.33h3.582ZM16.251,11.671H8.706V10.62l3.986-4.428a9.475,9.475,0,0,0,1.222-1.633,2.736,2.736,0,0,0,.336-1.3A2.074,2.074,0,0,0,13.7,1.779,1.916,1.916,0,0,0,12.249,1.2a2.271,2.271,0,0,0-1.7.621,2.38,2.38,0,0,0-.6,1.728H8.485A3.416,3.416,0,0,1,9.509.98,3.817,3.817,0,0,1,12.249,0a3.667,3.667,0,0,1,2.539.842,2.888,2.888,0,0,1,.933,2.242c0,1.129-.729,2.491-2.167,4.049L10.47,10.478h5.781V11.67Zm2.562-6.9a.881.881,0,0,1-.676-.245.868.868,0,0,1-.226-.609.917.917,0,0,1,.226-.633.865.865,0,0,1,.676-.253.889.889,0,0,1,.684.253.9.9,0,0,1,.233.633.85.85,0,0,1-.233.609A.909.909,0,0,1,18.813,4.776Z" transform="translate(361.527 13.511)" fill="#fff"/>
+      <path id="_100_" data-name="100%" d="M34.746,11.845a2.337,2.337,0,0,1-1.7-.66,2.367,2.367,0,0,1-.672-1.76V8.856a2.333,2.333,0,0,1,.66-1.7,2.5,2.5,0,0,1,3.4,0,2.394,2.394,0,0,1,.664,1.764v.561a2.334,2.334,0,0,1-.66,1.7A2.284,2.284,0,0,1,34.746,11.845Zm-.015-4.4a1.179,1.179,0,0,0-.914.392,1.531,1.531,0,0,0-.352,1.056v.585a1.508,1.508,0,0,0,.348,1.024,1.181,1.181,0,0,0,.933.4,1.151,1.151,0,0,0,.91-.392A1.571,1.571,0,0,0,36,9.442V8.856a1.506,1.506,0,0,0-.344-1.02A1.163,1.163,0,0,0,34.731,7.441ZM21.4,11.838a3.157,3.157,0,0,1-2.728-1.222,6.38,6.38,0,0,1-.917-3.649V5.013a6.576,6.576,0,0,1,.877-3.771A3.161,3.161,0,0,1,21.382.008,3.19,3.19,0,0,1,24.119,1.2a6.343,6.343,0,0,1,.9,3.673v1.9a6.723,6.723,0,0,1-.877,3.819A3.136,3.136,0,0,1,21.4,11.838ZM21.382,1.21a1.782,1.782,0,0,0-1.637.846,5.233,5.233,0,0,0-.529,2.6V7a5.478,5.478,0,0,0,.541,2.756,1.8,1.8,0,0,0,1.642.89,1.776,1.776,0,0,0,1.609-.838,5.274,5.274,0,0,0,.549-2.641v-2.4a5.386,5.386,0,0,0-.522-2.708A1.8,1.8,0,0,0,21.382,1.21ZM12.3,11.838a3.157,3.157,0,0,1-2.728-1.222,6.38,6.38,0,0,1-.917-3.649V5.013a6.564,6.564,0,0,1,.878-3.771A3.159,3.159,0,0,1,12.289.008,3.186,3.186,0,0,1,15.025,1.2a6.35,6.35,0,0,1,.9,3.673v1.9a6.72,6.72,0,0,1-.878,3.819A3.134,3.134,0,0,1,12.3,11.838ZM12.289,1.21a1.78,1.78,0,0,0-1.637.846,5.265,5.265,0,0,0-.53,2.6V7a5.463,5.463,0,0,0,.542,2.756,1.8,1.8,0,0,0,1.641.89,1.774,1.774,0,0,0,1.609-.838,5.283,5.283,0,0,0,.55-2.641v-2.4a5.386,5.386,0,0,0-.522-2.708A1.8,1.8,0,0,0,12.289,1.21ZM4.42,11.68H2.95V1.929L0,3.013V1.684L4.191.111H4.42V11.679Zm25.052-.87h0l-.829-.521,5.623-9,.83.522-5.622,9ZM29.14,5.354a2.334,2.334,0,0,1-1.7-.66,2.365,2.365,0,0,1-.672-1.76V2.38a2.345,2.345,0,0,1,.66-1.708,2.48,2.48,0,0,1,3.4,0,2.427,2.427,0,0,1,.652,1.752v.561a2.314,2.314,0,0,1-.66,1.7A2.285,2.285,0,0,1,29.14,5.354Zm-.016-4.4a1.151,1.151,0,0,0-.925.4,1.584,1.584,0,0,0-.34,1.052v.577a1.507,1.507,0,0,0,.348,1.017,1.178,1.178,0,0,0,.933.4,1.159,1.159,0,0,0,.906-.387,1.547,1.547,0,0,0,.343-1.059V2.38a1.531,1.531,0,0,0-.34-1.02A1.152,1.152,0,0,0,29.124.957Z" transform="translate(299.103 13.503)" fill="#fff"/>
+      <path id="Combined_Shape-2" data-name="Combined Shape" d="M4.048,15.183H0l4.048-3.8v3.794Zm10.123,0V1.9L16.2,0V15.182H14.171Zm-2.025,0H10.122V5.694l2.024-1.9V15.182Zm-6.073,0V9.49L8.1,7.592v7.59H6.073Z" transform="translate(272.122 10)" fill="#fff"/>
+      <path id="Combined_Shape-3" data-name="Combined Shape" d="M7.591,15.183A7.591,7.591,0,0,1,7.591,0V3.477a4.114,4.114,0,1,0,4.114,4.114h3.477A7.591,7.591,0,0,1,7.591,15.183Z" transform="translate(13 10)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
