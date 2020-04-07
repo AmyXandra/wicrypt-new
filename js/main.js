@@ -10,6 +10,8 @@ var rateVal= 0;
 var unitProfit= 0;
 var profitVal= 0;
 var revenue=0;
+var str;
+var res;
 
 function thousands_separators(num){ 
     var num_parts = num.toString().split(".");
@@ -21,23 +23,29 @@ function thousands_separators(num){
 function getProfit(){
     price.addEventListener("keyup", function(){
         priceVal = parseInt(price.value);
+
+        str = document.getElementById("price").value; 
+        res = str.replace(priceVal, thousands_separators(priceVal));
+
+        // document.getElementById("price").setAttribute('value',res);
+        document.getElementById("price").value = res;
+        console.log(thousands_separators(priceVal), res, "res",  str, "str");
         calculateValues()
+
     });
     data.addEventListener("keyup", function(){
         dataVal = parseInt(data.value);
         calculateValues()
-        
     });
     rate.addEventListener("keyup", function(){
         rateVal = parseInt(rate.value);
         calculateValues()
-        
     });
 }
 
 function calculateValues(){
     unitPriceVal = dataVal == 0 ? 0 : (priceVal / dataVal);
-
+    console.log(unitPriceVal, priceVal, "unit, price")
     document.getElementById("unitPrice").innerText = thousands_separators(unitPriceVal.toFixed(2));
 
     if(rateVal > 0){
@@ -46,6 +54,14 @@ function calculateValues(){
 
         profitVal = (dataVal*rateVal) - priceVal;
         document.getElementById("profit").innerText = thousands_separators(profitVal.toFixed());
+        if (profitVal < 0){
+            document.getElementById("showProfit").classList.remove("text-success");
+            document.getElementById("showProfit").classList.add("text-danger");
+        }
+        else if (profitVal > 0){
+            document.getElementById("showProfit").classList.add("text-success");
+            document.getElementById("showProfit").classList.remove("text-danger");
+        }
 
         percentageProfit = (profitVal/priceVal)*100;
         document.getElementById("percentageProfit").innerText = percentageProfit.toFixed(2); 
@@ -58,12 +74,13 @@ function calculateValues(){
 
 getProfit();
 
+
+
 function navigate(url){
     location.href = url;
 }
 
 
-autoPlayYouTubeModal();
 
 //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
 function autoPlayYouTubeModal() {
@@ -79,4 +96,4 @@ function autoPlayYouTubeModal() {
     });
 }
 
-
+autoPlayYouTubeModal();

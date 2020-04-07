@@ -74,7 +74,7 @@
                             <a href="business.html" class="nav-link">Business</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#nothing" target="_blank"  onclick="navigate('http://wicrypt.com/help/')" class="nav-link">Help Center</a>
+                            <a href="#nothing" target="_blank"  onclick="navigate('http://wicrypt.com/help/','_blank')" class="nav-link">Help Center</a>
                         </li>
                         <li class="nav-item">
                             <a href="#profitcalc" class="nav-link">Profit Calculator</a>
@@ -116,8 +116,8 @@
                     <div class="col-lg-5 offset-lg-1">
                         <div class="card mx-auto rounded-bg mt-5 mb-5 mt-lg-0">
                             <div class="text-center video-box home-img">
-                                <img src="images/features/img-1.png" alt="" class="rounded-bg img-fluid mx-auto d-block">
-                                <a href="#" class="play-btn popup"data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/loFtozxZG0s">
+                                <img src="images/features/video-thumbnail.jpg" alt="" class="rounded-bg img-fluid mx-auto d-block" style="min-height: 300px;">
+                                <a href="https://www.youtube.com/embed/pfkZy4cpI6o" class="play-btn popup"data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/pfkZy4cpI6o">
                                     <i class="mdi mdi-play"></i>
                                 </a>
                             </div>
@@ -131,76 +131,14 @@
         </section>
         <!-- Hero section End -->
         
-
-        <!-- Services start -->
-        <section class="section bg-light">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center pb-3 mb-5">
-                            <!-- <h5 class="text-primary text-uppercase small-title">Services</h5> -->
-                            <h3 class="mb-2">Our Features</h3>
-                            <p>The amazing features to stay connected</p>
-                        </div>
-                    </div>
-                </div>
-               
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="pos-rel" style="z-index: 1;">
-                            <div class="home-img text-center">
-                                <img class="image-mobile" src="images/phone.png" alt="" class="img-fluid mx-auto d-block">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 ml-lg-auto col-sm-8">
-                        <div>
-                            <ul class="list list--check mt-4">
-                                <li class="list__item item4">
-                                    <div>
-                                        <h5>Connect your Mi-Fi/Router</h5>
-                                        <p>You can now connect your router to Wicrypt and have several users connect and pay for your Wi-Fi network. </p>
-                                    </div>
-                                </li>
-                                <li class="list__item item2">
-                                    <div>
-                                        <h5>Set your billing rate</h5>
-                                        <p>A user has the freedom of setting his price per gigabyte of data consumed. </p>
-                                    </div>
-                                </li>
-                                <li class="list__item item3">
-                                    <div>
-                                        <h5>Wicrypt Wallet</h5>
-                                        <p>Wicrypt has an inbuilt wallet that verifies the beneficiary has enough Wicrypt Credit(WC) to start using the service.</p>
-                                    </div>
-                                </li>
-                                <li class="list__item item1" >
-                                    <div>
-                                        <h5>Secured blockchain payment</h5>
-                                        <p>It leverages the blockchain and allows users to receive payments per gigabyte(GB) of their wifi data consumed by a beneficiary.</p>
-                                    </div>
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- end row -->
-
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- Services end -->
-
-        <!-- Features start -->
+        <!-- ProfitCalc start -->
         <section class="section" id="profitcalc">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="text-center mb-5">
                             <!-- <h5 class="text-primary text-uppercase small-title">Features</h5> -->
-                            <h4 class="mb-3">Key features of Wicrypt</h4>
+                            <!-- <h3 class="mb-3">Key features of Wicrypt</h3> -->
                             <!-- <p>It will be as simple as occidental in fact, it will be Occidental.</p> -->
                         </div>
                     </div>
@@ -274,7 +212,7 @@
                                                 </td>
                                                 <td valign="top">
                                                     <h5>
-                                                        <span class="text-success ml-1" style="font-weight:bold">NGN
+                                                        <span class="text-success ml-1" id="showProfit" style="font-weight:bold">NGN
                                                             <span id="profit"></span> 
                                                             <br />
                                                             <span style="font-size: 15px;font-weight: 600;">
@@ -331,7 +269,68 @@
             </div>
             <!-- end container -->
         </section>
-        <!-- Features end -->
+        <!-- ProfitCalc end -->
+
+        <!-- Features start -->
+        <section class="section bg-light">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="text-center pb-3 mb-5">
+                                <!-- <h5 class="text-primary text-uppercase small-title">Services</h5> -->
+                                <h3 class="mb-3">Key features of Wicrypt</h3>
+                                <p>The amazing features to stay connected</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="pos-rel" style="z-index: 1;">
+                                <div class="home-img text-center">
+                                    <img class="image-mobile" src="images/phone.png" alt="" class="img-fluid mx-auto d-block">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-6 ml-lg-auto col-sm-8">
+                            <div>
+                                <ul class="list list--check mt-4">
+                                    <li class="list__item item4">
+                                        <div>
+                                            <h5>Connect your Mi-Fi/Router</h5>
+                                            <p>You can now connect your router to Wicrypt and have several users connect and pay for your Wi-Fi network. </p>
+                                        </div>
+                                    </li>
+                                    <li class="list__item item2">
+                                        <div>
+                                            <h5>Set your billing rate</h5>
+                                            <p>A user has the freedom of setting his price per gigabyte of data consumed. </p>
+                                        </div>
+                                    </li>
+                                    <li class="list__item item3">
+                                        <div>
+                                            <h5>Wicrypt Wallet</h5>
+                                            <p>Wicrypt has an inbuilt wallet that verifies the beneficiary has enough Wicrypt Credit(WC) to start using the service.</p>
+                                        </div>
+                                    </li>
+                                    <li class="list__item item1" >
+                                        <div>
+                                            <h5>Secured blockchain payment</h5>
+                                            <p>It leverages the blockchain and allows users to receive payments per gigabyte(GB) of their wifi data consumed by a beneficiary.</p>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+    
+                </div>
+                <!-- end container -->
+            </section>
+            <!-- Features end -->
 
         <!-- Testimonial start -->
         <section class="section bg-light" id="clients">
