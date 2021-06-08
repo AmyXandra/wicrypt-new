@@ -23,6 +23,7 @@ body {
   font-size: 0.9rem;
   color: #6f6f6f;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 h1,
@@ -48,7 +49,7 @@ a:hover {
   outline: none;
 }
 p {
-  line-height: 1.6;
+  line-height: 1.8;
   font-size: 16px;
 }
 
@@ -109,6 +110,7 @@ input[type=number] {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
+  overflow: hidden;
 }
 
 .vertical-content {
@@ -150,8 +152,9 @@ input[type=number] {
 }
 .btn {
   font-size: .9rem;
-  padding: 0.7rem 1.4rem;
+  padding: 0.58rem 1.4rem;
   font-weight: 500;
+  min-width: 160px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   border-radius: 7px;
@@ -170,7 +173,7 @@ input[type=number] {
 }
 
 .btn-rounded {
-  border-radius: 6px;
+  border-radius: 40px;
 }
 .rounded-bg{
   border-radius: 9px;
@@ -918,14 +921,22 @@ a.text-secondary:focus, a.text-secondary:hover{
     4.Hero section
 *******************/
 .hero-section {
-  padding-top: 145px;
-  overflow: hidden;
-  height: 100vh;
+  padding-top: 200px;
+  height: 90vh;
   background: url(../images/hero.svg), linear-gradient(100.71deg, #2D2E83 28.71%, #141558 87.17%);
   background-size: cover;
   background-position: center;
 }
-
+.hero-wrapper{
+  max-width: 480px;
+}
+.hero-title{
+  font-size: 36px;
+}
+.hero-wrapper p{
+  font-size: 18px;
+  line-height: 27px;
+}
 .home-img {
   position: relative;
 }
@@ -934,8 +945,43 @@ a.text-secondary:focus, a.text-secondary:hover{
   background: url(../images/hero.svg), linear-gradient(100.71deg, #2D2E83 28.71%, #141558 87.17%);
   background-size: cover;
   background-position: center;
+  padding: 100px 0;
+}
+.network-left{
+  position: relative;
+  width: 50vw;
+}
+.network-left:before{
+  content: "";
+  position: absolute;
+  width: 102%;
+  height: 120%;
+  top: -10%;
+  left: -30%;
+  z-index: -1;
+  background: url(../images/network-bg.png) 0 0 no-repeat;
+  background-position: center;
+  transform: skew(-8deg);
+}
+.network-right{
+  position: relative;
+  width: 50vw;
+}
+.network-right:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  top: -10%;
+  left: 0%;
+  z-index: -1;
+  background: url(../images/satellite-view.png) 0 0 no-repeat;
+  transform: skew(-8deg);
 }
 
+.featured-video{
+  margin-top: 120px;
+}
 .featured-video:before{
   display: block;
   content: "";
@@ -1016,6 +1062,10 @@ a.text-secondary:focus, a.text-secondary:hover{
 }
 .calculator-form label {
   display: block;
+  color: #6F6F6F;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 4px;
 }
 
 
@@ -1042,15 +1092,18 @@ a.text-secondary:focus, a.text-secondary:hover{
   border: 1px solid #EAEAFF;
   box-sizing: border-box;
   border-radius: 5px;
-  margin-bottom: 30px;
   min-height: 256px;
+  height: 100%;
 }
 .feature-item:hover{
-  box-shadow: 0px 19px 20px 0px #0000000D;
+  box-shadow: 0px 19px 20px rgba(0, 0, 0, 0.05);
 }
 .feature-item img{
-  width: 38px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  max-height: 40px;
+}
+.feature-item-use img{
+  max-height: 140px;
 }
 .feature-item h3{
   font-weight: 600;
@@ -1068,6 +1121,9 @@ a.text-secondary:focus, a.text-secondary:hover{
 .title{
   font-weight: 600;
   position: relative;
+  font-size: 26px;
+  max-width: 470px;
+  margin: 0 auto;
 }
 .title:before{
   position: absolute;
@@ -1081,7 +1137,41 @@ a.text-secondary:focus, a.text-secondary:hover{
   z-index: -1;
 }
 
+.sub-title{
+  max-width: 490px;
+  margin: 0 auto;
+}
 
+.collapse-item{
+  margin-bottom: 15px;
+}
+.collapse-header{
+  background: #F4F4F4;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+.collapse-header h4{
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.collapse{
+  padding: 10px 20px;
+}
+.dotted-bg{
+  position: relative;
+}
+
+.dotted-bg:before{
+  position: absolute;
+  content: '';
+  background: url(../images/dotted.svg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  top: 37%;
+  left: 16%;
+  z-index: -1;
+}
 
 /******************
     5.Testimonial
@@ -1100,17 +1190,18 @@ a.text-secondary:focus, a.text-secondary:hover{
 
 .testi-carousel .owl-nav button span {
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 34px;
+  height: 34px;
   line-height: 32px;
-  background: rgba(47, 85, 212, 0.2);
-  color: #2f55d4;
+  background: #ffffff;
+  color: #E7BE1B;
+  border: 1px solid #E7BE1B;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .testi-carousel .owl-nav button:hover span {
-  background: #2f55d4;
+  background: #E7BE1B;
   color: #ffffff;
 }
 
@@ -1123,13 +1214,13 @@ a.text-secondary:focus, a.text-secondary:hover{
 }
 
 .testi-carousel .owl-dots .owl-dot span {
-  background: rgba(47, 85, 212, 0.2);
-  border: 2px solid transparent;
+  background: #C4C4C4;
+  border: 2px solid #C4C4C4;
 }
 
 .testi-carousel .owl-dots .owl-dot.active span, .testi-carousel .owl-dots .owl-dot:hover span {
-  background: #ffffff;
-  border: 2px solid #2f55d4;
+  background: #2D2E83;
+  border: 2px solid #2D2E83;
 }
 
 /********** Clients ***********/
@@ -1285,7 +1376,7 @@ a.text-secondary:focus, a.text-secondary:hover{
   .navbar-custom {
     margin-top: 0px;
     padding: 10px 0px !important;
-    background: #3c4f89;
+    background: #2d2e83;
     -webkit-box-shadow: 0 10px 33px -14px rgba(0, 0, 0, 0.1);
     box-shadow: 0 10px 33px -14px rgba(0, 0, 0, 0.1);
   }
@@ -1360,6 +1451,7 @@ a.text-secondary:focus, a.text-secondary:hover{
   }
   .hero-section-3 {
     padding: 130px 0px 70px 0px;
+    overflow: hidden;
   }
   .business-features{
     padding: 0px!important;
@@ -1367,8 +1459,47 @@ a.text-secondary:focus, a.text-secondary:hover{
   .home-float{
     position: relative;
   }
+  .network-left{
+    position: relative;
+    width: 100%;
+  }
+  .network-left:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -10%;
+    left: 0%;
+    z-index: -1;
+    background: url(../images/network-bg.png) 0 0 no-repeat;
+    background-position: center;
+    transform: skew(0deg);
+  }
+  .network-right{
+    position: relative;
+    width: 100%;
+  }
+  .network-right:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    top: -10%;
+    left: 0%;
+    z-index: -1;
+    background: url(../images/satellite-view.png) 0 0 no-repeat;
+    transform: skew(0deg);
+  }
+  .featured-video:before {
+    display: block;
+    content: "";
+    height: 30%;
+  }
+  .home-float img{
+    width: 100%
+  }
+  
 }
-/*# sourceMappingURL=style.css.map */
 
 .list__item{
   margin-bottom: 45px;
