@@ -1149,10 +1149,23 @@ a.text-secondary:focus, a.text-secondary:hover{
   background: #F4F4F4;
   border-radius: 3px;
   padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .collapse-header h4{
   margin-bottom: 0px;
   font-size: 18px;
+}
+.collapse-header i{
+  color: #E7BE1B;
+  font-weight: bold;
+  height: 24px;
+  width: 24px;
+  border: 1px solid #E7BE1B;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 15px;
+  display: inline-table;
 }
 .collapse{
   padding: 10px 20px;
