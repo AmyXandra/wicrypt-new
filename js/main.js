@@ -194,3 +194,18 @@ autoPlayYouTubeModal();
 
 
 
+
+
+
+  const toggle = document.getElementById("toggle-switch");
+  const currency = document.getElementsByClassName("currency");
+
+  toggle.addEventListener("click", ()=>{
+      for(let i=0; i < currency.length; i++){
+        if (currency[i].innerText === "NGN") {
+            currency[i].innerText = "USD";
+        } else {
+            currency[i].innerText = "NGN";
+        }
+      }
+  })

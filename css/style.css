@@ -1398,6 +1398,10 @@ a.text-secondary:focus, a.text-secondary:hover{
   font-weight: 500;
   display: block;
 }
+.toggle-title{
+  display: flex;
+  justify-content: space-between;
+}
 
 /******************
     9.Responsive
@@ -1453,6 +1457,11 @@ a.text-secondary:focus, a.text-secondary:hover{
 @media (max-width: 767.98px) {
   .hero-title {
     font-size: 32px;
+  }
+  .toggle-title{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 }
 
@@ -1606,14 +1615,18 @@ a.text-secondary:focus, a.text-secondary:hover{
   -webkit-box-shadow: 0px 2px 20px 0px #2d2e83;
   box-shadow: 0px 2px 20px 0px #2d2e83;
 }
+h3.form-title{
+  font-size: 26px
+}
 h3.form-title:before {
   content: "";
-  height: 8px;
+  height: 10px;
   display: block;
   background: #e7be1b;
   position: absolute;
-  bottom: 15px;
-  width: 230px;
+  bottom: 6px;
+  /* width: calc(100% - 55px); */
+  width: 60%;
   z-index: -1;
 }
 .business-feature{
@@ -1731,4 +1744,83 @@ button.close:hover {
 }
 .dropdown-menu .dropdown-item:hover{
   background:rgb(231 190 27 / 21%)
+}
+
+
+
+/* toggle currency switch */
+
+.switch-button {
+  background: #EEEEEE;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 120px;
+  text-align: center;
+  font-size: 18px;
+  color: #515151;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 22px;
+  position: relative;
+  padding-right: 60px;
+  position: relative;
+}
+.switch-button:before {
+  content: "USD";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  pointer-events: none;
+}
+.switch-button-checkbox {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 2;
+}
+.switch-button-checkbox:checked + .switch-button-label{
+  color: #515151;
+}
+.switch-button-checkbox:checked + .switch-button-label:before {
+  transform: translateX(60px);
+  transition: transform 300ms linear;
+}
+.switch-button-checkbox + .switch-button-label {
+  position: relative;
+  padding: 10px 0;
+  display: block;
+  user-select: none;
+  pointer-events: none;
+  margin: 0;
+  width: 60px;
+  color: #fff;
+}
+/* .switch-button-checkbox + .switch-button:before{
+  color: #fff;
+} */
+.switch-button-checkbox + .switch-button-label:before {
+  content: "";
+  background: #CFA809;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 30px;
+  transform: translateX(0);
+  transition: transform 300ms;
+}
+.switch-button-checkbox + .switch-button-label .switch-button-label-span {
+  position: relative;
 }

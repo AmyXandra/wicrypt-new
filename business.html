@@ -110,8 +110,8 @@
                             How it works
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="business.html">Business</a>
-                            <a class="dropdown-item" href="individual.html">Individual</a>
+                            <a class="dropdown-item" href="business.html">For Business</a>
+                            <a class="dropdown-item" href="individual.html">For Home & Personal Use</a>
                         </div>
                     </li>
                     <!-- <li class="nav-item">
@@ -184,7 +184,7 @@
                             loyalty.
                         </p>
                         <h5 class="mt-3 pt-3">
-                            <a class="btn btn-outline-secondary btn-rounded" href="http://wicrypt.com/help/" target="_blank">
+                            <a class="btn btn-outline-secondary btn-rounded" href="https://wicrypt.geena.shop/" target="_blank">
                                 Buy a Device Now
                             </a>
                         </h5>
@@ -285,7 +285,6 @@
                         <p class="mb-4 mt-4 text-white">
                             Use our profit calculator to estimate how much profit you can make if you decide to resell data.
                         </p>
-
                     </div>
 
                     <div class="mt-4">
@@ -295,10 +294,17 @@
                     </div>
                 </div>
 
-                <div class="col-lg-5 offset-lg-3">
+                <div class="col-lg-6 offset-lg-2">
                     <div class="card mx-auto p-4 rounded mt-5 mt-lg-0" style="border: 1px solid #E3E3FF; border-radius: 15px !important;">
-                        <div class="pos-rel mb-3 mt-1">
-                            <h3 class="form-title" style="color:#2d2e83;font-weight:bold">Your Profit Calculator</h3>
+                        
+                        <div class="toggle-title mb-3 mt-1">
+                           <div class="pos-rel">
+                                <h3 class="form-title" style="color:#2d2e83;font-weight:bold;margin: 0;">Your Profit Calculator</h3>
+                            </div>
+                            <div class="switch-button">
+                                <input class="switch-button-checkbox" type="checkbox" id="toggle-switch"></input>
+                                <label class="switch-button-label" for=""><span class="switch-button-label-span">NGN</span></label>
+                            </div>
                         </div>
                         <form class="calculator-form">
                             <div class="form-group mb-3">
@@ -309,25 +315,25 @@
                             <div class="form-group mb-3">
                                 <label class="font-15">How much did it cost?</label>
                                 <input type="text" class="form-control" id="price" placeholder="">
-                                <span>NGN</span>
+                                <span class="currency">NGN</span>
                             </div>
                             <div class="mb-3">
-                                <h6 class="font-14 mb-0">Your data cost per GB is: NGN
-                                    <span class="ml-1" id="unitPrice"></span>
+                                <h6 class="font-14 mb-0">Your data cost per GB is: 
+                                    <span class="ml-1" id="unitPrice">0</span> <span class="currency">NGN</span>
                                 </h6>
                                 <p class="font-12">* Don’t sell below this cost price to ensure you make profit</p>
                             </div>
                             <div class="form-group mb-3">
                                 <label class="font-15">How much is your billing rate per GB?</label>
                                 <input type="text" class="form-control" id="rate" placeholder="">
-                                <span> NGN/GB</span>
+                                <span> <span class="currency">NGN</span>/GB</span>
                             </div>
                             <div class="mb-3">
-                                <h6 class="font-15 mb-0">Your Profit per GB is: NGN
-                                    <span id="unitProfit"></span>
+                                <h6 class="font-15 mb-0">Your Profit per GB is: <span id="unitProfit">0</span> <span class="currency">NGN</span>
+                                    
                                     <span class="text-primary" style="font-size: 15px;font-weight: 600;">
                                         (
-                                        <span id="percentageProfit"> </span>% profit)
+                                        <span id="percentageProfit">0</span> % profit)
                                     </span>
                                 </h6>
                             </div>
@@ -340,8 +346,8 @@
                                             </td>
                                             <td>
                                                 <h5 class="font-18 mb-0">
-                                                    <span class="text-primary ml-1" style="font-weight:bold">NGN
-                                                        <span id="revenue"></span>
+                                                    <span class="text-primary ml-1" style="font-weight:bold">
+                                                        <span id="revenue">0</span> <span class="currency">NGN</span>
                                                     </span>
                                                 </h5>
                                             </td>
@@ -352,8 +358,8 @@
                                             </td>
                                             <td valign="top">
                                                 <h5 class="font-18 mb-0">
-                                                    <span class="text-primary ml-1" id="showProfit" style="font-weight:bold">NGN
-                                                        <span id="profit"></span>
+                                                    <span class="text-primary ml-1" id="showProfit" style="font-weight:bold">
+                                                        <span id="profit">0</span> <span class="currency">NGN</span>
                                                     </span>
                                                 </h5>
                                             </td>
