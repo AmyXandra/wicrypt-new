@@ -18,6 +18,7 @@
 
     <!-- Material Icon -->
     <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/wicrypt-icon.css" />
 
     <!-- owl carousel -->
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
@@ -58,7 +59,7 @@
 
 </head>
 
-<body>
+<body class="light-theme">
 
     <!--Navbar Start-->
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
@@ -68,7 +69,8 @@
                 <img src="images/logo-white.png" alt="" height="35" />
             </a>
             <a class="logo logo-dark" href="index.html">
-                <img src="images/logo-blue.png" alt="" height="35" />
+                <img src="images/logo-blue.png" class="white-theme" alt="" height="35" />
+                <img src="images/logo-white.png" class="black-theme" alt="" height="35" />
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -112,6 +114,7 @@
                     <li class="nav-item">
                         <a href="faq.html" class="nav-link">FAQs</a>
                     </li>
+
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Self service
@@ -130,11 +133,13 @@
                 <!-- Error Spot -->
                 <button class="btn btn-outline-secondary btn-rounded" onclick="window.open('https://dashboard.wicrypt.com/')">Sign Up for free</button>
 
+                <button id="mode-toggle">Toggle</button>
+
+
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
-
 
     <!-- Hero section Start -->
     <section class="hero-section pos rel">
@@ -165,6 +170,7 @@
                                 What is Wicrypt?
                             </a>
                         </h6> -->
+
                     </div>
 
                 </div>
@@ -195,7 +201,7 @@
 
             <div class="row mt-4 pt-5">
                 <div class="col-lg-6">
-                    <div class="featured-video">
+                    <div class="home-img">
                         <img src="images/features/about-bg.png" alt="" class="img-fluid mx-auto d-block">
                     </div>
                 </div>
@@ -236,7 +242,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/six-points.svg" alt="feature-image">
+                        <!-- <img src="images/icons/six-points.svg" alt="feature-image"> -->
+                        <span class="icon-Network"></span>
                         <h3>Create A Chain Of Hotspot Networks</h3>
                         <p>Create your own hotspot network, or chain of hotspot networks and offer your community secure access
                             to your high-speed internet for free or at whatever rates you choose.</p>
@@ -244,7 +251,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/data-collection.svg" alt="feature-image">
+                        <span class="icon-Data-collection"></span>
                         <h3>Collect Information</h3>
                         <p>Collect rich, clean, first-party data when users connect to your hotspot network. Serve advertising,
                             create quizzes, surveys and forms for your network users.</p>
@@ -252,7 +259,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/signal.svg" alt="feature-image">
+                        <span class="icon-signal"></span>
                         <h3>Monitor Data Usage</h3>
                         <p> Add friends, family, employees, or customers to your account, allocate data to them, monitor overall
                             consumption and track individual usage over time.</p>
@@ -260,7 +267,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/switch.svg" alt="feature-image">
+                        <span class="icon-Switch"></span>
                         <h3>Switch Providers</h3>
                         <p>Free yourself from constantly switching devices for a good connection. Wicrypt devices allow you
                             to move between mobile and fibre network providers easily.</p>
@@ -268,7 +275,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/press.svg" alt="feature-image">
+                        <span class="icon-press"></span>
                         <h3>Easy Redemption</h3>
                         <p>Receive payments into your wallet account when other users connect to your hotspot network and cash
                             out all of your earnings on any of your bank accounts.</p>
@@ -276,7 +283,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/data-server.svg" alt="feature-image">
+                        <span class="icon-data-recharge"></span>
                         <h3>Recharge Your Data</h3>
                         <p>Fund your wallet and automatically top-up your data balance at wholesale rates. Gain access to great
                             deals nationwide from a variety of internet service providers.</p>
@@ -307,41 +314,52 @@
             <div class="row mt-3 justify-content-center">
                 <div class="col-xl-2 col-sm-6 col-6">
                     <div class="client-images">
-                        <img src="images/brands/enugustate.png" alt="client-img" class="mx-auto img-fluid d-block">
+                        <img src="images/brands/swifta.svg" alt="client-img" class="mx-auto img-fluid white-theme">
+                        <img src="images/brands/swifta1.png" alt="client-img" class="mx-auto img-fluid black-theme">
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-sm-6 col-6">
+                    <div class="client-images">
+                        <img src="images/brands/arewa.png" alt="client-img" class="mx-auto img-fluid white-theme">
+                        <img src="images/brands/arewa1.png" alt="client-img" class="mx-auto img-fluid black-theme">
                     </div>
                 </div>
                 <div class="col-xl-2 col-sm-6 col-6">
                     <div class="client-images">
-                        <img src="images/brands/arewa.png" alt="client-img" class="mx-auto img-fluid d-block">
+                        <img src="images/brands/enugustate.png" alt="client-img" class="mx-auto img-fluid white-theme">
+                        <img src="images/brands/enugustate1.png" alt="client-img" class="mx-auto img-fluid black-theme">
                     </div>
                 </div>
                 <div class="col-xl-2 col-sm-6 col-6">
+                        <div class="client-images">
+                            <img src="images/brands/vnts.png" alt="client-img" class="mx-auto img-fluid white-theme">
+                            <img src="images/brands/vnts1.png" alt="client-img" class="mx-auto img-fluid black-theme">
+                        </div>
+                    </div>
+                <div class="col-xl-2 col-sm-6 col-6">
                     <div class="client-images">
-                        <img src="images/brands/kopasaid.png" alt="client-img" class="mx-auto img-fluid d-block">
+                        <img src="images/brands/kopasaid.png" alt="client-img" class="mx-auto img-fluid white-theme">
+                        <img src="images/brands/kopasaid1.png" alt="client-img" class="mx-auto img-fluid black-theme">
                     </div>
                 </div>
                 <div class="col-xl-2 col-sm-6 col-6">
-                    <div class="client-images">
-                        <img src="images/brands/omnibranches.png" alt="client-img" class="mx-auto img-fluid d-block">
+                        <div class="client-images">
+                            <a href="https://africa50innovationchallenge.com/wicrypt/" target="_blank">
+                                <img src="images/brands/africa50.jpg" alt="client-img" class="mx-auto img-fluid white-theme">
+                                <img src="images/brands/africa501.png" alt="client-img" class="mx-auto img-fluid black-theme">
+                            </a>
+                        </div>
                     </div>
-                </div>
                 <div class="col-xl-2 col-sm-6 col-6">
                     <div class="client-images">
-                        <img src="images/brands/swifta.svg" alt="client-img" class="mx-auto img-fluid d-block">
+                        <img src="images/brands/omnibranches.png" alt="client-img" class="mx-auto img-fluid white-theme">
+                        <img src="images/brands/omnibranches1.png" alt="client-img" class="mx-auto img-fluid black-theme">
                     </div>
                 </div>
-                <div class="col-xl-2 col-sm-6 col-6">
-                    <div class="client-images">
-                        <img src="images/brands/vnts.png" alt="client-img" class="mx-auto img-fluid d-block">
-                    </div>
-                </div>
-                <div class="col-xl-2 col-sm-6 col-6">
-                    <div class="client-images">
-                        <a href="https://africa50innovationchallenge.com/wicrypt/" target="_blank">
-                            <img src="images/brands/africa50.jpg" alt="client-img" class="mx-auto img-fluid d-block">
-                        </a>
-                    </div>
-                </div>
+
+                
+                
             </div>
             <!-- end row -->
 
@@ -365,7 +383,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item feature-item-use">
-                        <img src="images/icons/community.svg" alt="use-case-img">
+                        <span class="icon-Community"></span>
                         <h3>Community</h3>
                         <p>Wicrypt enables the Enugu State Government access to their community whilst creating jobs and income
                             for indigenes in the process.</p>
@@ -374,7 +392,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item feature-item-use">
-                        <img src="images/icons/team.svg" alt="use-case-img">
+                        <span class="icon-Business"></span>
                         <h3>Business</h3>
                         <p>Wicrypt enables Omni Branches to offer their agents high speed internet access and earn money in
                             the process.</p>
@@ -383,7 +401,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item feature-item-use">
-                        <img src="images/icons/home.svg" alt="use-case-img">
+                        <span class="icon-home"></span>
                         <h3>Home & Personal use</h3>
                         <p>Ugochukwu uses his Wicrypt Mi-Fi to allocate data to members of his household each month. He uses
                             his Wicrypt App to connect to public Wi-Fi zones in Enugu and Lagos.</p>
@@ -421,8 +439,8 @@
                         <div class="ml-4 mt-4 mb-4" style="max-width:400px">
                             <h3 class="text-white mb-2">Find a Network</h3>
                             <p class="text-white mb-4">We’ll match you with local networks as they become available.</p>
-                            <a href="http://wicrypt.com/help/" class="btn btn-outline-secondary btn-rounded" target="_blank">
-                                Get Connected
+                            <a href="" class="btn btn-outline-secondary btn-rounded" disabled target="_blank">
+                                Coming Soon
                             </a>
                         </div>
                     </div>
@@ -589,7 +607,7 @@
 
 
     <!-- Counter start -->
-    <section class="section bg-primary cta">
+    <section class="section cta">
         <div class="container">
             <div class="">
 
@@ -645,7 +663,8 @@
             <div class="row mt-4">
                 <div class="col-lg-3 col-sm-12">
                     <div>
-                        <img src="images/logo-blue.png" alt="" height="35" class="mb-5">
+                        <img src="images/logo-blue.png" class="white-theme mb-5" alt="" height="35">
+                        <img src="images/logo-white.png" class="dark-theme mb-5" alt="" height="35">
                         <!-- <p>The Internet you deserve</p> -->
 
                         <div class="pt-4">
@@ -742,7 +761,7 @@
                                                 <span>Address:</span>
                                                 5C Bethel Plaza Garden Avenue, Enugu, Nigeria.
                                             </p>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -779,8 +798,8 @@
                     </div>
                     <div class="col-md-5">
                         <p class="text-right font-14">
-                            <a href="terms-condition.html" class="h-underline pr-4">Terms & Conditions</a>
-                            <a href="privacy-policy.html" class="h-underline pr-4">Privacy Policy</a>
+                            <a href="terms-condition.html" class="h-underline footnotes pr-4">Terms & Conditions</a>
+                            <a href="privacy-policy.html" class="h-underline footnotes pr-4">Privacy Policy</a>
                             <!-- <a href="privacy-policy.html" class="h-underline">Compliance</a> -->
                         </p>
                     </div>
@@ -822,7 +841,7 @@
 
     <!-- app js -->
     <script src="js/app.js"></script>
-    <script src="js/timer.js"></script>
+    <script src="js/theme.js"></script>
     <script src="js/main.js"></script>
 
 </body>

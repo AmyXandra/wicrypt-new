@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'wicrypt-icon-font';
+  src:  url('../fonts/wicrypt-icon-font.eot?dufzoa');
+  src:  url('../fonts/wicrypt-icon-font.eot?dufzoa#iefix') format('embedded-opentype'),
+    url('../fonts/wicrypt-icon-font.ttf?dufzoa') format('truetype'),
+    url('../fonts/wicrypt-icon-font.woff?dufzoa') format('woff'),
+    url('../fonts/wicrypt-icon-font.svg?dufzoa#wicrypt-icon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'wicrypt-icon-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Network:before {
+  content: "\e911";
+  /* color: #2d2e83; */
+}
+.icon-signal:before {
+  content: "\e912";
+  /* color: #2d2e83; */
+}
+.icon-press:before {
+  content: "\e913";
+  /* color: #2d2e83; */
+}
+.icon-Administation:before {
+  content: "\e900";
+  /* color: #2d2e83; */
+}
+.icon-Light-Theme:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-Dark-Theme:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-Business:before {
+  content: "\e903";
+  /* color: #2d2e83; */
+}
+.icon-Charging:before {
+  content: "\e904";
+  /* color: #2d2e83; */
+}
+.icon-Data-monitor:before {
+  content: "\e905";
+  /* color: #2d2e83; */
+}
+.icon-Connected:before {
+  content: "\e906";
+  /* color: #2d2e83; */
+}
+.icon-home:before {
+  content: "\e907";
+  /* color: #2d2e83; */
+}
+.icon-Voucher:before {
+  content: "\e908";
+  /* color: #2d2e83; */
+}
+.icon-Switch:before {
+  content: "\e909";
+  /* color: #2d2e83; */
+}
+.icon-Community:before {
+  content: "\e90a";
+  /* color: #2d2e83; */
+}
+.icon-data-recharge:before {
+  content: "\e90b";
+  /* color: #2d2e83; */
+}
+.icon-Data-collection:before {
+  content: "\e90c";
+  /* color: #2d2e83; */
+}
+.icon-Flexibility:before {
+  content: "\e90d";
+  /* color: #2d2e83; */
+}
+.icon-analytics:before {
+  content: "\e90e";
+  /* color: #2d2e83; */
+}
+.icon-Ad-support:before {
+  content: "\e90f";
+  /* color: #2d2e83; */
+}
+.icon-device:before {
+  content: "\e910";
+  /* color: #2d2e83; */
+}

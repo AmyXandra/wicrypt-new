@@ -16,8 +16,9 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-    <!-- Material Icon -->
+    <!-- Font Icon -->
     <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/wicrypt-icon.css" />
 
     <!-- owl carousel -->
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
@@ -57,7 +58,7 @@
 
 </head>
 
-<body>
+<body class="light-theme">
     <style>
         .business-features {
             padding-top: 30px;
@@ -159,7 +160,7 @@
         </div>
     </nav>
     <!-- Navbar End -->
-
+    
 
     <!-- Hero section Start -->
     <section class="hero-section-3 pos rel">
@@ -167,14 +168,6 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <!-- <div class="hero-wrapper mb-4">
-                        <h2 class="hero-title mb-4 text-white">Make HUGE business profits from selling internet data with Wicrypt routers</h2>
-                        <div class="mt-4">
-                            <a href="https://forms.gle/PjnqbDfcUYnwm94FA" target="_blank" class="btn btn-white test-primary mt-2 mr-2">
-                                Register a business account
-                            </a>
-                        </div>
-                    </div> -->
                     <div class="hero-wrapper mb-4">
                         <h1 class="hero-title mb-3 text-white">
                             For Businesses
@@ -224,7 +217,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/device-mgt.svg" alt="analytics">
+                        <span class="icon-device"></span>
                         <h3>Device Management</h3>
                         <p>Set up your Wicrypt device and manage several users who can connect and pay for access to your hotspot
                             network.
@@ -233,14 +226,14 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/team.svg" alt="rates">
+                            <span class="icon-Business"></span>
                         <h3>User Management</h3>
                         <p>Lets you assign data to your agents, manage their data usage and monitor sales via the Wicrypt dashboard.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/billing.svg" alt="ad-support">
+                            <span class="icon-Charging"></span>
                         <h3>Billing & Charging Management</h3>
                         <p>Allows you to set your preferred billing rate to your connected users per GB. You can use our profit
                             calculator to see how much you'll be earning in profit.</p>
@@ -248,7 +241,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/voucher-mgt.svg" alt="ticket">
+                            <span class="icon-Voucher"></span>
                         <h3>Voucher Management</h3>
                         <p>Customers who don't have the Wicrypt App on their devices can be connected to the network through
                             the vouchers feature. You can issue vouchers to customers from the administrator dashboard.</p>
@@ -256,7 +249,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/admin-dash.svg" alt="ticket">
+                            <span class="icon-Administation"></span>
                         <h3>Administrator Dashboard</h3>
                         <p>You'll have access to a real-time dashboard that contains details of your data consumption, profit,
                             agents and connected devices, all at once.</p>
@@ -264,7 +257,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                        <img src="images/icons/advertise.svg" alt="ticket">
+                            <span class="icon-Ad-support"></span>
                         <h3>Ad-Supported</h3>
                         <p>Now you can display advertising banners or create lead generation forms for users when they try connect to your hotspot network. 
                             This means that you can promote your products or special offers, or sell advertising slots to another business.</p>
@@ -303,11 +296,11 @@
                 </div>
 
                 <div class="col-lg-6 offset-lg-2 ">
-                    <div class="card mx-auto p-4 rounded mt-5 mt-lg-0" style="border: 1px solid #E3E3FF; border-radius: 15px !important; max-width:440px">
+                    <div class="card mx-auto p-4 rounded mt-5 mt-lg-0 calculator-card">
                         
                         <div class="toggle-title mb-3 mt-1">
                            <div class="pos-rel">
-                                <h3 class="form-title" style="color:#2d2e83;font-weight:bold;margin: 0;">Your Profit Calculator</h3>
+                                <h3 class="form-title text-dark" style="font-weight:bold;margin: 0;">Your Profit Calculator</h3>
                             </div>
                             <div class="switch-button">
                                 <input class="switch-button-checkbox" type="checkbox" id="toggle-switch"></input>
@@ -336,8 +329,8 @@
                                 <input type="text" class="form-control" id="rate" placeholder="">
                                 <span> <span class="currency">NGN</span>/GB</span>
                             </div>
-                            <div class="mb-3">
-                                <h6 class="font-15 mb-0">Your Profit per GB is: <span id="unitProfit">0</span> <span class="currency">NGN</span>
+                            <div class="mb-4">
+                                <h6 class=" mb-0">Your Profit per GB is: <span id="unitProfit">0</span> <span class="currency">NGN</span>
                                     
                                     <span class="text-primary" style="font-size: 15px;font-weight: 600;">
                                         (
@@ -374,16 +367,7 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <!-- <h5>Total revenue: 
-                                        <span class="text-success" style="font-weight:bold">NGN
-                                            <span id="revenue"></span>
-                                        </span>
-                                    </h5>
-                                    <h5>Total profit: 
-                                        <span class="text-success" style="font-weight:bold">NGN
-                                            <span id="profit"></span> ( <span id="percentageProfit"> </span>% profit)
-                                        </span>
-                                    </h5> -->
+                                
                             </div>
                         </form>
                     </div>
@@ -406,7 +390,8 @@
             <div class="row mt-4">
                 <div class="col-lg-3 col-sm-12">
                     <div>
-                        <img src="images/logo-blue.png" alt="" height="35" class="mb-5">
+                        <img src="images/logo-blue.png" class="white-theme mb-5" alt="" height="35">
+                        <img src="images/logo-white.png" class="black-theme mb-5" alt="" height="35">
                         <!-- <p>The Internet you deserve</p> -->
 
                         <div class="pt-4">
@@ -503,7 +488,7 @@
                                                 <span>Address:</span>
                                                 5C Bethel Plaza Garden Avenue, Enugu, Nigeria.
                                             </p>
-
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -514,19 +499,19 @@
 
 
                         <!-- <div class="col-lg-3 col-sm-6">
-                                <div>
-                                    <div class="pb-4">
-                                        <div class="media">
-                                            <div class="media-body">
-                                                <h6>Language</h6>
-                                                <select>
-                                                    <option>English</option>
-                                                </select>
-                                            </div>
+                            <div>
+                                <div class="pb-4">
+                                    <div class="media">
+                                        <div class="media-body">
+                                            <h6>Language</h6>
+                                            <select>
+                                                <option>English</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -540,8 +525,8 @@
                     </div>
                     <div class="col-md-5">
                         <p class="text-right font-14">
-                            <a href="terms-condition.html" class="h-underline pr-4">Terms & Conditions</a>
-                            <a href="privacy-policy.html" class="h-underline pr-4">Privacy Policy</a>
+                            <a href="terms-condition.html" class="h-underline footnotes pr-4">Terms & Conditions</a>
+                            <a href="privacy-policy.html" class="h-underline footnotes pr-4">Privacy Policy</a>
                             <!-- <a href="privacy-policy.html" class="h-underline">Compliance</a> -->
                         </p>
                     </div>
@@ -568,6 +553,7 @@
     <!-- app js -->
     <script src="js/app.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/theme.js"></script>
 
 </body>
 
