@@ -921,7 +921,7 @@ a.text-secondary:focus, a.text-secondary:hover{
     4.Hero section
 *******************/
 .hero-section {
-  padding-top: 200px;
+  padding-top: 240px;
   height: 90vh;
   background: url(../images/hero.svg), linear-gradient(100.71deg, #2D2E83 28.71%, #141558 87.17%);
   background-size: cover;
@@ -980,19 +980,22 @@ a.text-secondary:focus, a.text-secondary:hover{
 }
 
 .featured-video{
-  margin-top: 120px;
+  margin-top: 5px;
+  position: relative;
+  margin-bottom: 40px;
 }
 .featured-video:before{
   display: block;
   content: "";
-  background: url(../images/video-bg.svg);
+  background: url(../images/dotted-home.svg);
   background-repeat: no-repeat;
   position: absolute;
-  top: 0;
-  left: -10px;
+  top: 44%;
+  left: -90px;
   right: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 /* .cta.bg-primary:before {
   display: block;
@@ -1362,7 +1365,9 @@ a.text-secondary:focus, a.text-secondary:hover{
   text-decoration: underline !important;
 }
 .home-float{
-  position:absolute; z-index:100; top: 12px;
+  position:absolute; 
+  z-index:10; 
+  top: -50px;
 }
 
 .image-section1{
@@ -1406,6 +1411,11 @@ a.text-secondary:focus, a.text-secondary:hover{
 /******************
     9.Responsive
 *******************/
+@media screen and (min-width: 991px) and (max-width: 1040px) {
+  .network-left:before {
+    width: 120%;
+  }
+}
 @media (max-width: 991px) {
   .navbar-custom {
     margin-top: 0px;
@@ -1452,6 +1462,12 @@ a.text-secondary:focus, a.text-secondary:hover{
   .image-section1, .image-section2{
     height: 250px;
   }
+  .home-float{
+    position: relative;
+  }
+  .home-float img{
+    max-height: 420px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -1462,6 +1478,37 @@ a.text-secondary:focus, a.text-secondary:hover{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  }
+  .network-left{
+    position: relative;
+    width: 100%;
+  }
+  .network-left:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -10%;
+    left: 0%;
+    z-index: -1;
+    background: url(../images/network-bg.png) 0 0 no-repeat;
+    background-position: center;
+    transform: skew(0deg);
+  }
+  .network-right{
+    position: relative;
+    width: 100%;
+  }
+  .network-right:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    top: -10%;
+    left: 0%;
+    z-index: -1;
+    background: url(../images/satellite-view.png) 0 0 no-repeat;
+    transform: skew(0deg);
   }
 }
 
@@ -1497,6 +1544,7 @@ a.text-secondary:focus, a.text-secondary:hover{
   }
   .home-float{
     position: relative;
+    top: 28px;
   }
   .network-left{
     position: relative;
@@ -1532,7 +1580,7 @@ a.text-secondary:focus, a.text-secondary:hover{
   .featured-video:before {
     display: block;
     content: "";
-    height: 30%;
+    height: 70%;
   }
   .home-float img{
     width: 100%
