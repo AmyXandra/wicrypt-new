@@ -1,3 +1,28 @@
+.dark-theme{
+  --background: #14151A;
+  --bg-primary: #0B0E11;
+  --card-bg: #2B2F36;
+  --card-border: #0B0E11;
+  --icon-color: #E7BE1B;  
+  --title: #FFFFFF;
+  --title-2: #ffffff;
+  --banner-bg: #0B0E11;
+  --text: #D4D4D4;
+  --text-primary: #E7BE1B;
+  --text-nav: #ffffff;
+  --text-2:#A8A7A7;
+  --text-3: #ffffff;
+  --text-4: #C6C6C6;
+  --footer-bg: transparent;
+  --white-theme: none;
+  --dark-theme:block;
+  --bg-1: #2B2F36;
+  --form-border:#0B0E11;
+  --dotted: #CFA809;
+  --toggle-menu: rgb(255 255 255 / 90%)
+}
+
+
 .light-theme{
   --background: #FFFFFF;
   --bg-primary: #2D2E83;
@@ -22,29 +47,6 @@
   --toggle-menu: rgba(52, 58, 64, 0.9)
 }
 
-.dark-theme{
-  --background: #14151A;
-  --bg-primary: #0B0E11;
-  --card-bg: #2B2F36;
-  --card-border: #0B0E11;
-  --icon-color: #E7BE1B;  
-  --title: #FFFFFF;
-  --title-2: #ffffff;
-  --banner-bg: #0B0E11;
-  --text: #D4D4D4;
-  --text-primary: #E7BE1B;
-  --text-nav: #ffffff;
-  --text-2:#A8A7A7;
-  --text-3: #ffffff;
-  --text-4: #C6C6C6;
-  --footer-bg: transparent;
-  --white-theme: none;
-  --dark-theme:block;
-  --bg-1: #2B2F36;
-  --form-border:#0B0E11;
-  --dotted: #CFA809;
-  --toggle-menu: rgb(255 255 255 / 90%)
-}
 
 /*******************************
 1.General

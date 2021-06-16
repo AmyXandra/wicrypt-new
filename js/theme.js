@@ -6,16 +6,16 @@ const modeBtn = document.getElementById('mode-toggle');
 
 const currentTheme = localStorage.getItem("theme");
 // console.log("currentTheme",currentTheme)
-if (currentTheme == "dark") {
-  document.body.classList.add("dark-theme");
+if (currentTheme == "light") {
+  document.body.classList.add("light-theme");
 }
 
 modeBtn.addEventListener("click", function () {
-  document.body.classList.toggle("dark-theme");
+  document.body.classList.toggle("light-theme");
   // console.log('button clicked');    
-  let theme = "light";
-  if (document.body.classList.contains("dark-theme")) {
-    theme = "dark";
+  let theme = "dark";
+  if (document.body.classList.contains("light-theme")) {
+    theme = "light";
   }
   localStorage.setItem("theme", theme);
 // console.log("theme",theme)
