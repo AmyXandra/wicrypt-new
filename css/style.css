@@ -880,6 +880,9 @@ a.text-secondary:focus, a.text-secondary:hover{
   padding: 6px 10px;
   margin: 0 7px;
 }
+.navbar-custom .navbar-nav .nav-item .nav-link span{
+  font-size: 18px;
+}
 
 .navbar-custom .navbar-nav .nav-item .nav-link:hover, .navbar-custom .navbar-nav .nav-item .nav-link:active {
   color: #e7be1b;
@@ -1246,8 +1249,7 @@ a.text-secondary:focus, a.text-secondary:hover{
 }
 .collapse li{
   line-height: 24px;
-  margin-bottom: 10px;
-
+  /* margin-bottom: 10px; */
 }
 
 .dotted-bg{
