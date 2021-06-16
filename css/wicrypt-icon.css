@@ -43,11 +43,11 @@
 }
 .icon-Light-Theme:before {
   content: "\e901";
-  color: #fff;
+  /* color: #fff; */
 }
 .icon-Dark-Theme:before {
   content: "\e902";
-  color: #fff;
+  /* color: #fff; */
 }
 .icon-Business:before {
   content: "\e903";

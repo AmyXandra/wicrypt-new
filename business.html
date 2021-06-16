@@ -94,7 +94,8 @@
                 <img src="images/logo-white.png" alt="" height="35" />
             </a>
             <a class="logo logo-dark" href="index.html">
-                <img src="images/logo-blue.png" alt="" height="35" />
+                <img src="images/logo-blue.png" class="white-theme" alt="" height="35" />
+                <img src="images/logo-white.png" class="black-theme" alt="" height="35" />
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -111,13 +112,13 @@
                             How it works
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="business.html">For Business</a>
+                            <a class="dropdown-item active" href="business.html">For Business</a>
                             <a class="dropdown-item" href="individual.html">For Home & Personal Use</a>
                         </div>
                     </li>
                     <!-- <li class="nav-item">
-                        <a href="#token" onclick="window.open('http://token.wicrypt.com/')" class="nav-link">Token </a>
-                    </li> -->
+                            <a href="#token" onclick="window.open('http://token.wicrypt.com/')" class="nav-link">Token </a>
+                        </li> -->
                     <li class="nav-item">
                         <a href="case-study.html" class="nav-link">Case Studies </a>
                     </li>
@@ -138,17 +139,18 @@
                     <li class="nav-item">
                         <a href="faq.html" class="nav-link">FAQs</a>
                     </li>
+
                     <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Self service
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#voucher" onclick="window.open('https://dashboard.wicrypt.com/selfservice/voucher/balance')"
-                                target="_blank">Voucher</a>
-                            <a class="dropdown-item" href="#developers" onclick="window.open('http://stage.wicrypt.com/redoc/public')" target="_blank">Developers</a>
-                            <a class="dropdown-item" href="#helpcenter" onclick="window.open('http://wicrypt.com/help/')" class="nav-link">Help Center</a>
-                        </div>
-                    </li> -->
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Self service
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#voucher" onclick="window.open('https://dashboard.wicrypt.com/selfservice/voucher/balance')"
+                                    target="_blank">Voucher</a>
+                                <a class="dropdown-item" href="#developers" onclick="window.open('http://stage.wicrypt.com/redoc/public')" target="_blank">Developers</a>
+                                <a class="dropdown-item" href="#helpcenter" onclick="window.open('http://wicrypt.com/help/')" class="nav-link">Help Center</a>
+                            </div>
+                        </li> -->
 
 
                 </ul>
@@ -156,11 +158,22 @@
                 <!-- Error Spot -->
                 <button class="btn btn-outline-secondary btn-rounded" onclick="window.open('https://dashboard.wicrypt.com/')">Sign Up for free</button>
 
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <div class="nav-link" id="mode-toggle">
+                            <span class="icon-Light-Theme black-theme"></span>
+                            <span class="icon-Dark-Theme white-theme"></span>
+                        </div>
+                    </li>
+                </ul>
+
+
+
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
-    
+
 
     <!-- Hero section Start -->
     <section class="hero-section-3 pos rel">
@@ -226,14 +239,14 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                            <span class="icon-Business"></span>
+                        <span class="icon-Business"></span>
                         <h3>User Management</h3>
                         <p>Lets you assign data to your agents, manage their data usage and monitor sales via the Wicrypt dashboard.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                            <span class="icon-Charging"></span>
+                        <span class="icon-Charging"></span>
                         <h3>Billing & Charging Management</h3>
                         <p>Allows you to set your preferred billing rate to your connected users per GB. You can use our profit
                             calculator to see how much you'll be earning in profit.</p>
@@ -241,7 +254,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                            <span class="icon-Voucher"></span>
+                        <span class="icon-Voucher"></span>
                         <h3>Voucher Management</h3>
                         <p>Customers who don't have the Wicrypt App on their devices can be connected to the network through
                             the vouchers feature. You can issue vouchers to customers from the administrator dashboard.</p>
@@ -249,7 +262,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                            <span class="icon-Administation"></span>
+                        <span class="icon-Administation"></span>
                         <h3>Administrator Dashboard</h3>
                         <p>You'll have access to a real-time dashboard that contains details of your data consumption, profit,
                             agents and connected devices, all at once.</p>
@@ -257,10 +270,11 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="feature-item">
-                            <span class="icon-Ad-support"></span>
+                        <span class="icon-Ad-support"></span>
                         <h3>Ad-Supported</h3>
-                        <p>Now you can display advertising banners or create lead generation forms for users when they try connect to your hotspot network. 
-                            This means that you can promote your products or special offers, or sell advertising slots to another business.</p>
+                        <p>Now you can display advertising banners or create lead generation forms for users when they try connect
+                            to your hotspot network. This means that you can promote your products or special offers, or
+                            sell advertising slots to another business.</p>
                     </div>
                 </div>
             </div>
@@ -297,14 +311,16 @@
 
                 <div class="col-lg-6 offset-lg-2 ">
                     <div class="card mx-auto p-4 rounded mt-5 mt-lg-0 calculator-card">
-                        
+
                         <div class="toggle-title mb-3 mt-1">
-                           <div class="pos-rel">
+                            <div class="pos-rel">
                                 <h3 class="form-title text-dark" style="font-weight:bold;margin: 0;">Your Profit Calculator</h3>
                             </div>
                             <div class="switch-button">
                                 <input class="switch-button-checkbox" type="checkbox" id="toggle-switch"></input>
-                                <label class="switch-button-label" for=""><span class="switch-button-label-span">NGN</span></label>
+                                <label class="switch-button-label" for="">
+                                    <span class="switch-button-label-span">NGN</span>
+                                </label>
                             </div>
                         </div>
                         <form class="calculator-form">
@@ -319,19 +335,23 @@
                                 <span class="currency">NGN</span>
                             </div>
                             <div class="mb-3">
-                                <h6 class="font-14 mb-0">Your data cost per GB is: 
-                                    <span class="ml-1" id="unitPrice">0</span> <span class="currency">NGN</span>
+                                <h6 class="font-14 mb-0">Your data cost per GB is:
+                                    <span class="ml-1" id="unitPrice">0</span>
+                                    <span class="currency">NGN</span>
                                 </h6>
                                 <p class="font-12">* Don’t sell below this cost price to ensure you make profit</p>
                             </div>
                             <div class="form-group mb-3">
                                 <label class="font-15">How much is your billing rate per GB?</label>
                                 <input type="text" class="form-control" id="rate" placeholder="">
-                                <span> <span class="currency">NGN</span>/GB</span>
+                                <span>
+                                    <span class="currency">NGN</span>/GB</span>
                             </div>
                             <div class="mb-4">
-                                <h6 class=" mb-0">Your Profit per GB is: <span id="unitProfit">0</span> <span class="currency">NGN</span>
-                                    
+                                <h6 class=" mb-0">Your Profit per GB is:
+                                    <span id="unitProfit">0</span>
+                                    <span class="currency">NGN</span>
+
                                     <span class="text-primary" style="font-size: 15px;font-weight: 600;">
                                         (
                                         <span id="percentageProfit">0</span> % profit)
@@ -348,7 +368,8 @@
                                             <td>
                                                 <h5 class="font-18 mb-0">
                                                     <span class="text-primary ml-1" style="font-weight:bold">
-                                                        <span id="revenue">0</span> <span class="currency">NGN</span>
+                                                        <span id="revenue">0</span>
+                                                        <span class="currency">NGN</span>
                                                     </span>
                                                 </h5>
                                             </td>
@@ -360,14 +381,15 @@
                                             <td valign="top">
                                                 <h5 class="font-18 mb-0">
                                                     <span class="text-primary ml-1" id="showProfit" style="font-weight:bold">
-                                                        <span id="profit">0</span> <span class="currency">NGN</span>
+                                                        <span id="profit">0</span>
+                                                        <span class="currency">NGN</span>
                                                     </span>
                                                 </h5>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                
+
                             </div>
                         </form>
                     </div>
@@ -488,7 +510,7 @@
                                                 <span>Address:</span>
                                                 5C Bethel Plaza Garden Avenue, Enugu, Nigeria.
                                             </p>
-                                            
+
                                         </div>
                                     </div>
                                 </div>

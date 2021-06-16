@@ -19,6 +19,7 @@
   --bg-1: #F4F4F4;
   --form-border:#ced4da;
   --dotted: #9FA0E8;
+  --toggle-menu: rgba(52, 58, 64, 0.9)
 }
 
 .dark-theme{
@@ -42,6 +43,7 @@
   --bg-1: #2B2F36;
   --form-border:#0B0E11;
   --dotted: #CFA809;
+  --toggle-menu: rgb(255 255 255 / 90%)
 }
 
 /*******************************
@@ -1539,7 +1541,7 @@ a.text-secondary:focus, a.text-secondary:hover{
     color: white;
   }
   .nav-sticky button.navbar-toggler {
-    color: rgba(52, 58, 64, 0.9);
+    color: var(--toggle-menu);
   }
   .hero-section {
     padding-top: 130px;
