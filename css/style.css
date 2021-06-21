@@ -1012,22 +1012,26 @@ a.text-secondary:focus, a.text-secondary:hover{
 .network-left{
   position: relative;
   width: 50vw;
+  padding: 3rem 3rem 3rem 12rem;
 }
 .network-left:before{
   content: "";
   position: absolute;
-  width: 102%;
+  width: 104%;
   height: 120%;
   top: -10%;
-  left: -30%;
+  left: -6%;
   z-index: -1;
-  background: url(../images/network-bg.png) 0 0 no-repeat;
+  background: linear-gradient(16deg, black, transparent), url(../images/start-network.png);
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   transform: skew(-8deg);
 }
 .network-right{
   position: relative;
   width: 50vw;
+  padding: 3rem;
 }
 .network-right:before{
   content: "";
@@ -1506,10 +1510,22 @@ a.text-secondary:focus, a.text-secondary:hover{
 /******************
     9.Responsive
 *******************/
+@media screen and (min-width: 1040px) and (max-width: 1298px) {
+  .network-left{
+    padding: 3rem 3rem 3rem 6rem;
+  }
+  
+}
 @media screen and (min-width: 991px) and (max-width: 1040px) {
   .network-left:before {
     width: 120%;
   }
+  .network-left{
+    position: relative;
+    width: 50vw;
+    padding: 3rem 3rem 3rem 6rem;
+  }
+  
 }
 @media (max-width: 991px) {
   .navbar-custom {
@@ -1563,6 +1579,9 @@ a.text-secondary:focus, a.text-secondary:hover{
   .home-float img{
     max-height: 420px;
   }
+  .network-left{
+    padding: 3rem 3rem 3rem 5rem;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -1586,8 +1605,10 @@ a.text-secondary:focus, a.text-secondary:hover{
     top: -10%;
     left: 0%;
     z-index: -1;
-    background: url(../images/network-bg.png) 0 0 no-repeat;
+    background: linear-gradient(16deg, black, transparent), url(../images/start-network.png);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     transform: skew(0deg);
   }
   .network-right{
@@ -1653,8 +1674,10 @@ a.text-secondary:focus, a.text-secondary:hover{
     top: -10%;
     left: 0%;
     z-index: -1;
-    background: url(../images/network-bg.png) 0 0 no-repeat;
+    background: linear-gradient(16deg, black, transparent), url(../images/start-network.png);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     transform: skew(0deg);
   }
   .network-right{
@@ -1679,6 +1702,9 @@ a.text-secondary:focus, a.text-secondary:hover{
   }
   .home-float img{
     width: 100%
+  }
+  .network-left{
+    padding: 3rem 3rem 3rem 3rem;
   }
   
 }
