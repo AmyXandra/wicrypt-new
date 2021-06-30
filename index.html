@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css" />
 
     <!-- Custom  sCss -->
-    <link rel="stylesheet" type="text/css" href="css/style.css?ver=3" />
+    <link rel="stylesheet" type="text/css" href="css/style.css?ver=3.1" />
 
 
     <script>
@@ -51,12 +51,31 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166298804-2"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-166298804-2');
+        gtag('config', 'UA-166298804-2');
     </script>
+
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '4127787227315751');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=4127787227315751&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
 
 </head>
 
@@ -85,7 +104,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            How it works
+                            How it Works
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="business.html">For Business</a>
@@ -102,11 +121,13 @@
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Developer
                         </a>
+
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#voucher" onclick="window.open('https://dashboard.wicrypt.com/selfservice/voucher/balance')"
-                                target="_blank">Voucher</a>
-                            <a class="dropdown-item" href="#developers" onclick="window.open('http://stage.wicrypt.com/redoc/public')" target="_blank">Developers</a>
-                            <a class="dropdown-item" href="#helpcenter" onclick="window.open('http://wicrypt.com/help/')" class="nav-link">Help Center</a>
+                            <a class="dropdown-item" href="#token" onclick="window.open('https://token.wicrypt.com/')" target="_blank">Token</a>
+                            <a class="dropdown-item" href="#litepaper" onclick="window.open('https://token.wicrypt.com/WicryptLitepaper.pdf')" target="_blank">Litepaper</a>
+                            <a class="dropdown-item" href="#documentation" onclick="window.open('http://stage.wicrypt.com/redoc/public')" target="_blank">Documentation</a>
+                            <a class="dropdown-item" href="#api" onclick="window.open('https://api.wicrypt.com/')" target="_blank">API</a>
+                            <!-- <a class="dropdown-item" href="#developers" onclick="window.open('http://stage.wicrypt.com/redoc/public')" target="_blank">Roadmap</a> -->
                         </div>
                     </li>
                     <li class="nav-item">
@@ -115,25 +136,11 @@
                     <li class="nav-item">
                         <a href="faq.html" class="nav-link">FAQs</a>
                     </li>
-
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Self service
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#voucher" onclick="window.open('https://dashboard.wicrypt.com/selfservice/voucher/balance')"
-                                target="_blank">Voucher</a>
-                            <a class="dropdown-item" href="#developers" onclick="window.open('http://stage.wicrypt.com/redoc/public')" target="_blank">Developers</a>
-                            <a class="dropdown-item" href="#helpcenter" onclick="window.open('http://wicrypt.com/help/')" class="nav-link">Help Center</a>
-                        </div>
-                    </li> -->
-
-
                 </ul>
 
                 <!-- Error Spot -->
                 <button class="btn btn-outline-secondary btn-rounded" onclick="window.open('https://dashboard.wicrypt.com/')">Sign Up for free</button>
-                
+
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <div class="nav-link" id="mode-toggle" style="cursor: pointer;">
@@ -142,7 +149,7 @@
                         </div>
                     </li>
                 </ul>
-                
+
 
 
             </div>
@@ -189,8 +196,8 @@
                     <div class="pos-rel">
                         <div class="text-center home-float">
                             <div class="mx-auto rounded mt-5 mt-lg-0">
-                                    <img src="images/features/hero-img.png" alt="" class="img-fluid mx-auto white-theme" style="min-height: 300px;max-width:165%!important">
-                                    <img src="images/features/hero-img-dark.png" alt="" class="img-fluid mx-auto black-theme" style="min-height: 300px;max-width:165%!important">
+                                <img src="images/features/hero-img.png" alt="" class="img-fluid mx-auto white-theme" style="min-height: 300px;max-width:165%!important">
+                                <img src="images/features/hero-img-dark.png" alt="" class="img-fluid mx-auto black-theme" style="min-height: 300px;max-width:165%!important">
                             </div>
                         </div>
 
@@ -342,11 +349,11 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-sm-6 col-6">
-                        <div class="client-images">
-                            <img src="images/brands/vnts.png" alt="client-img" class="mx-auto img-fluid white-theme">
-                            <img src="images/brands/vnts1.png" alt="client-img" class="mx-auto img-fluid black-theme">
-                        </div>
+                    <div class="client-images">
+                        <img src="images/brands/vnts.png" alt="client-img" class="mx-auto img-fluid white-theme">
+                        <img src="images/brands/vnts1.png" alt="client-img" class="mx-auto img-fluid black-theme">
                     </div>
+                </div>
                 <div class="col-xl-2 col-sm-6 col-6">
                     <div class="client-images">
                         <img src="images/brands/kopasaid.png" alt="client-img" class="mx-auto img-fluid white-theme">
@@ -354,13 +361,13 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-sm-6 col-6">
-                        <div class="client-images">
-                            <a href="https://africa50innovationchallenge.com/wicrypt/" target="_blank">
-                                <img src="images/brands/africa50.jpg" alt="client-img" class="mx-auto img-fluid white-theme">
-                                <img src="images/brands/africa501.png" alt="client-img" class="mx-auto img-fluid black-theme">
-                            </a>
-                        </div>
+                    <div class="client-images">
+                        <a href="https://africa50innovationchallenge.com/wicrypt/" target="_blank">
+                            <img src="images/brands/africa50.jpg" alt="client-img" class="mx-auto img-fluid white-theme">
+                            <img src="images/brands/africa501.png" alt="client-img" class="mx-auto img-fluid black-theme">
+                        </a>
                     </div>
+                </div>
                 <div class="col-xl-2 col-sm-6 col-6">
                     <div class="client-images">
                         <img src="images/brands/omnibranches.png" alt="client-img" class="mx-auto img-fluid white-theme">
@@ -368,8 +375,8 @@
                     </div>
                 </div>
 
-                
-                
+
+
             </div>
             <!-- end row -->
 
@@ -747,10 +754,10 @@
                                                 <a class="text-body h-underline" href="https://token.wicrypt.com/WicryptLitepaper.pdf">Litepaper</a>
                                             </p>
                                             <p>
-                                                <a class="text-body h-underline" href="mailto:hello@wicrypt.com">Documentation</a>
+                                                <a class="text-body h-underline" href="http://stage.wicrypt.com/redoc/public">Documentation</a>
                                             </p>
                                             <p>
-                                                <a class="text-body h-underline" href="mailto:hello@wicrypt.com">API</a>
+                                                <a class="text-body h-underline" href="https://api.wicrypt.com/">API</a>
                                             </p>
                                         </div>
                                     </div>
@@ -817,6 +824,17 @@
             </footer>
         </div>
         <!-- end container -->
+        <div id="google_translate_element"></div>
+
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+            }
+        </script>
+
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <p>You can translate the content of this page by selecting a language in the select box.</p>
 
     </footer>
     <!-- Footer end -->

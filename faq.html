@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css" />
 
     <!-- Custom  sCss -->
-    <link rel="stylesheet" type="text/css" href="css/style.css?ver=3" />
+    <link rel="stylesheet" type="text/css" href="css/style.css?ver=3.1" />
 
 
     <script>
@@ -57,6 +57,24 @@
         gtag('config', 'UA-166298804-2');
     </script>
 
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '4127787227315751');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=4127787227315751&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body class="dark-theme">
@@ -84,7 +102,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                How it works
+                                How it Works
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="business.html">For Business</a>
@@ -100,10 +118,11 @@
                                 Developer
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#voucher" onclick="window.open('https://dashboard.wicrypt.com/selfservice/voucher/balance')"
-                                    target="_blank">Voucher</a>
-                                <a class="dropdown-item" href="#developers" onclick="window.open('http://stage.wicrypt.com/redoc/public')" target="_blank">Developers</a>
-                                <a class="dropdown-item" href="#helpcenter" onclick="window.open('http://wicrypt.com/help/')" class="nav-link">Help Center</a>
+                                <a class="dropdown-item" href="#token" onclick="window.open('https://token.wicrypt.com/')" target="_blank">Token</a>
+                                <a class="dropdown-item" href="#litepaper" onclick="window.open('https://token.wicrypt.com/WicryptLitepaper.pdf')" target="_blank">Litepaper</a>
+                                <a class="dropdown-item" href="#documentation" onclick="window.open('http://stage.wicrypt.com/redoc/public')" target="_blank">Documentation</a>
+                                <a class="dropdown-item" href="#api" onclick="window.open('https://api.wicrypt.com/')" target="_blank">API</a>
+                                <!-- <a class="dropdown-item" href="#developers" onclick="window.open('http://stage.wicrypt.com/redoc/public')" target="_blank">Roadmap</a> -->
                             </div>
                         </li>
                         <li class="nav-item">
@@ -112,20 +131,6 @@
                         <li class="nav-item active">
                             <a href="faq.html" class="nav-link">FAQs</a>
                         </li>
-    
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Self service
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#voucher" onclick="window.open('https://dashboard.wicrypt.com/selfservice/voucher/balance')"
-                                    target="_blank">Voucher</a>
-                                <a class="dropdown-item" href="#developers" onclick="window.open('http://stage.wicrypt.com/redoc/public')" target="_blank">Developers</a>
-                                <a class="dropdown-item" href="#helpcenter" onclick="window.open('http://wicrypt.com/help/')" class="nav-link">Help Center</a>
-                            </div>
-                        </li> -->
-    
-    
                     </ul>
     
                     <!-- Error Spot -->
@@ -507,10 +512,10 @@
                                                 <a class="text-body h-underline" href="https://token.wicrypt.com/WicryptLitepaper.pdf">Litepaper</a>
                                             </p>
                                             <p>
-                                                <a class="text-body h-underline" href="mailto:hello@wicrypt.com">Documentation</a>
+                                                <a class="text-body h-underline" href="http://stage.wicrypt.com/redoc/public">Documentation</a>
                                             </p>
                                             <p>
-                                                <a class="text-body h-underline" href="mailto:hello@wicrypt.com">API</a>
+                                                <a class="text-body h-underline" href="https://api.wicrypt.com/">API</a>
                                             </p>
                                         </div>
                                     </div>
